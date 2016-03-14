@@ -4,9 +4,6 @@ import urllib
 from bs4 import BeautifulSoup
 #determine to use file
 url="http://www.pythonchallenge.com/pc/def/ocr.html"
-#function redirect
-# urltest=urllib.urlopen(url).read
-# print urltest()
 file1=file('mission2data')
 content=file1.read()
 def findRare(string):
